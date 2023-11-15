@@ -1,7 +1,7 @@
 import s from './page.module.css';
 import { ReactElement } from 'react';
 import { Metadata } from 'next';
-import { Htag } from '@/app/components/Htag/Htag';
+import { Htag } from './components';
 
 export const metadata: Metadata = {
   title: 'First Next App',

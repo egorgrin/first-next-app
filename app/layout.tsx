@@ -4,7 +4,10 @@ import './globals.css';
 import { ReactElement, ReactNode } from 'react';
 import { NextFont } from 'next/dist/compiled/@next/font';
 
-const notoSans: NextFont = Noto_Sans({ subsets: ['latin'], weight: ['300', '400', '500', '700'] });
+const notoSans: NextFont = Noto_Sans({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '700']
+});
 
 export const metadata: Metadata = {
   title: 'Create Next App',
